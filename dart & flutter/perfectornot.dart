@@ -15,7 +15,7 @@ class Perfect {
     if (sum == num) {
       print("number is perfect ");
     } else {
-      print("number is not perfect!");
+      print("Number is not perfect!");
     }
   }
 }
