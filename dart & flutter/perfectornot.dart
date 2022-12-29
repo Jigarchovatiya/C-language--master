@@ -19,6 +19,7 @@ class Perfect {
     }
   }
 }
+
 void main() {
   Perfect perfect = Perfect();
 
