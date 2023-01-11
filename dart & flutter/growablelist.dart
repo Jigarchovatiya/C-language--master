@@ -29,17 +29,18 @@ print("19. convert numarical list to string: ${list.toString()}");
 print("20. Elements of list or string can change their index everytime: ${list}");
 list.shuffle();
 print("21. list filled with the number you give: ${List.filled(2, 3)}");
+print("22. As map: ${list.asMap()}");
 
 print("\n^^^^ Second List ^^^^" );
 List list2 = ['m','i','h','i','r'];
 //length
-print("22. Length of list = ${list2.length}");
+print("23. Length of list = ${list2.length}");
 //first latter
-print("23. First latter is = ${list2.first}");
+print("24. First latter is = ${list2.first}");
 //last latter
-print("24. Last latter is = ${list2.last}");
+print("25. Last latter is = ${list2.last}");
 //reverce
-print("25. Reverce list is = ${list2.reversed}");
-print("26. it returns the last latter of the list or string: ${list2.last}");
+print("26. Reverce list is = ${list2.reversed}");
+print("27. it returns the last latter of the list or string: ${list2.last}");
 
 }
