@@ -1,8 +1,7 @@
 import 'dart:io';
 
-
-void main(){
-  int num,val,rev;
+void reverce(){
+   int num,val,rev;
   print(" Enter a number ");
   num=int.parse(stdin.readLineSync()!);
 
@@ -13,4 +12,7 @@ void main(){
     num=num~/10;
   }
   print(" Reverse num is:$rev ");
+}
+void main(){
+ reverce();
 }
